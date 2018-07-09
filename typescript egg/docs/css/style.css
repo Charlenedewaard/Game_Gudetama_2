@@ -1,0 +1,50 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #ffc0cb;
+    font-family: 'Arial Black', cursive;
+    color:white;
+    font-size:22px;
+    overflow:hidden;
+    margin:0px; padding:0px;
+   
+}
+
+body * {
+    position: absolute;
+    display: block;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+
+splash {
+    font-size:2em;
+    cursor: pointer;
+    width:500px;
+    height:100px;
+    margin-top:calc(50vh - 50px);
+    margin-left:calc(50vw - 250px);
+    text-align:center;
+}
+
+egg {
+    background-image: url(../images/gudetama.png);
+    background-size: cover; 
+    width:80px; height:75px;
+}
+
+basket {
+    background-image: url(../images/basket.png);
+    width:245px; height:124px;
+
+    /** top: 100%;
+    transform: translateY(-100%); */ 
+}
+
+score {
+    width: 400px; height: 110px;
+    color: #1d1d1d;
+    font-size: 4em;
+  }
